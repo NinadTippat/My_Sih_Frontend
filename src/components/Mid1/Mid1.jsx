@@ -31,7 +31,7 @@ const Mid1 = () => {
     <div className="mid_all">
       <div className="mid1">
         <div className="mid1_left">
-          <Roll right> <h1>Welcome to Career Rush</h1></Roll>
+          <Roll right> <h1>Welcome to Career Rush </h1></Roll>
           <LightSpeed left><p>Career Counselling, Career guidance test </p></LightSpeed>
 
           <RenderTest />

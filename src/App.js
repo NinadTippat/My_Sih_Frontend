@@ -28,7 +28,7 @@ import Test5 from "./components/Test/Test5";
 import Test6 from "./components/Test/Test6";
 import Test7 from "./components/Test/Test7";
 import Test8 from "./components/Test/Test8";
-// import Result from "./components/Test/Result";
+import Result from "./components/Test/Result";
 import Aeronautical_Engineering from "./components/Courses/Engineering_Courses/Aeronautical_Engineering";
 import Aerospace_Engineering from "./components/Courses/Engineering_Courses/Aerospace_Engineering";
 import SociologyCourses from "./components/Courses/SociologyCourses";
@@ -71,7 +71,7 @@ const Routing = () => {
       <Route path="/test6" element={<Test6 />} />
       <Route path="/test7" element={<Test7 />} />
       <Route path="/test8" element={<Test8 />} />
-      {/* <Route path="/result" element={<Result />} /> */}
+      <Route path="/result" element={<Result />} />
       <Route
         path="/aeronautical_engineering"
         element={<Aeronautical_Engineering />}
